@@ -63,7 +63,7 @@ def gotogame():
     while running:
         screen.fill(pygame.Color("dimgray"))
         
-        textobj = font.render('aqui va el juego', 1, (255, 255, 255))  #titulo del juego
+        textobj = font.render('Aqui se abre el juego, pero todavia no xD, presione ESC para regresar al menu', 1, (255, 255, 255))  #titulo del juego
         textrect = textobj.get_rect() 
         textrect.topleft = (20, 20) #posicion x,y del juego
         screen.blit(textobj, textrect) 
